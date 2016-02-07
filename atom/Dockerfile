@@ -20,8 +20,8 @@
 #
 
 # Base docker image
-FROM debian:jessie
-MAINTAINER Jessica Frazelle <jess@docker.com>
+FROM resin/armv7hf-debian:jessie
+MAINTAINER RPIO
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
