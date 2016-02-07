@@ -1,5 +1,5 @@
-FROM debian:sid
-MAINTAINER Jessica Frazelle <jess@docker.com>
+FROM resin/armv7hf-debian:sid
+MAINTAINER RPIO
 
 RUN apt-get update && apt-get install -y \
 	apt-file \
